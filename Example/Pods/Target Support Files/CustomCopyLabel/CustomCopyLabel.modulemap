@@ -1,0 +1,6 @@
+framework module CustomCopyLabel {
+  umbrella header "CustomCopyLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}

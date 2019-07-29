@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'CustomCopyLabel'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of CustomCopyLabel.'
+  s.summary          = '具有将内容粘贴到系统的剪切板功能的label'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: 继承于系统的label，添加将内容粘贴到系统的剪切板的功能
                        DESC
 
   s.homepage         = 'https://github.com/zhmios/CustomCopyLabel'

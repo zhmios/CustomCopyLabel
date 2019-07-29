@@ -7,6 +7,7 @@
 //
 
 #import "HMViewController.h"
+#import "CustomCopyLabel.h"
 
 @interface HMViewController ()
 
@@ -17,6 +18,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'CustomCopyLabel_Example' do
+  pod 'CustomCopyLabel', :path => '../'
+
+  target 'CustomCopyLabel_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

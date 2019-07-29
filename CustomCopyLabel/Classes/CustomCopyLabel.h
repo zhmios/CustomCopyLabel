@@ -10,4 +10,6 @@
 
 @interface CustomCopyLabel : UILabel
 
+@property (nonatomic,assign) IBInspectable BOOL canPaste;
+
 @end

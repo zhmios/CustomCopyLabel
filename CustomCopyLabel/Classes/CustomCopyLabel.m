@@ -7,6 +7,11 @@
 //
 
 #import "CustomCopyLabel.h"
+@interface CustomCopyLabel ()
+
+@property(nonatomic,strong)UILongPressGestureRecognizer *longPress;
+
+@end
 
 @implementation CustomCopyLabel
 
@@ -30,7 +35,14 @@
     self.userInteractionEnabled = YES;
     UILongPressGestureRecognizer *longPress = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(longPressAction:)];
     longPress.minimumPressDuration = 0.25;
+    self.longPress = longPress;
     [self addGestureRecognizer:longPress];
+    
+}
+
+- (void)setCanPaste:(BOOL)canPaste{
+    _canPaste = canPaste;
+    self.longPress.enabled = canPaste;
     
 }
 

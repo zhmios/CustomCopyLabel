@@ -44,25 +44,25 @@
 		36855A6B848E5A5437D0B7709256AB7C /* Pods-CustomCopyLabel_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CustomCopyLabel_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3FD70D461E25142CB26998C62EDBF04F /* CustomCopyLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CustomCopyLabel.m; path = CustomCopyLabel/Classes/CustomCopyLabel.m; sourceTree = "<group>"; };
 		527A157C639497D2E946759D2F099C29 /* CustomCopyLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CustomCopyLabel.xcconfig; sourceTree = "<group>"; };
-		5B23521534C9C57DCF4AFD1395688942 /* Pods_CustomCopyLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CustomCopyLabel_Tests.framework; path = "Pods-CustomCopyLabel_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B23521534C9C57DCF4AFD1395688942 /* Pods_CustomCopyLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomCopyLabel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F247FAD7BECA55BC2A6A125C0C385B6 /* Pods-CustomCopyLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomCopyLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
 		670CB7721DF79513E445100DEFDF3DB5 /* CustomCopyLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CustomCopyLabel-umbrella.h"; sourceTree = "<group>"; };
 		71140CED717CBBFC07E599383C3B0236 /* Pods-CustomCopyLabel_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CustomCopyLabel_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		745A98067F00EFDB823603DC0A3BF0FF /* Pods-CustomCopyLabel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CustomCopyLabel_Example.modulemap"; sourceTree = "<group>"; };
 		7E3535A276AB4EC1398C3232E3030132 /* CustomCopyLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CustomCopyLabel.modulemap; sourceTree = "<group>"; };
-		8501FDB4D94FC6A7BE8995D3DA01066E /* Pods_CustomCopyLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CustomCopyLabel_Example.framework; path = "Pods-CustomCopyLabel_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8BE5F28224A4FC9ECC4ED8D93432D59B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		8501FDB4D94FC6A7BE8995D3DA01066E /* Pods_CustomCopyLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomCopyLabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BE5F28224A4FC9ECC4ED8D93432D59B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		8E51F53AE93FA9DD00E9F1A251866C14 /* CustomCopyLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CustomCopyLabel-dummy.m"; sourceTree = "<group>"; };
 		9D39758433113BFA1B108DD86C0A68B7 /* Pods-CustomCopyLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomCopyLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A195A2418D72C627E05D22DDCF2E5F2B /* Pods-CustomCopyLabel_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CustomCopyLabel_Tests-dummy.m"; sourceTree = "<group>"; };
 		A36D078DFE4B79D2A605041E0D237CEA /* Pods-CustomCopyLabel_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CustomCopyLabel_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A67B2BA3654FA9AB266D892F4506FA20 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A67B2BA3654FA9AB266D892F4506FA20 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		AC1D103947662F479A5EAA68F359ADB4 /* CustomCopyLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CustomCopyLabel.h; path = CustomCopyLabel/Classes/CustomCopyLabel.h; sourceTree = "<group>"; };
-		B54B6B6FA88DE0E5378B11F412B2759A /* CustomCopyLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CustomCopyLabel.framework; path = CustomCopyLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B54B6B6FA88DE0E5378B11F412B2759A /* CustomCopyLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CustomCopyLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6CB47AB568F441D02311D8F33DFA767 /* Pods-CustomCopyLabel_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CustomCopyLabel_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		B6D503C5A8BEF2E53098E21E47A8DEEB /* Pods-CustomCopyLabel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CustomCopyLabel_Tests-umbrella.h"; sourceTree = "<group>"; };
-		BC9168CAE81C97BA2D38B5B0897DC6B1 /* CustomCopyLabel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CustomCopyLabel.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BC9168CAE81C97BA2D38B5B0897DC6B1 /* CustomCopyLabel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CustomCopyLabel.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D329F7EF7993CDA42107E8F1FAF75231 /* Pods-CustomCopyLabel_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CustomCopyLabel_Example-dummy.m"; sourceTree = "<group>"; };
 		E8CBD038B0BAE83AF019FE1B7B08B7CA /* Pods-CustomCopyLabel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CustomCopyLabel_Tests.modulemap"; sourceTree = "<group>"; };
@@ -325,6 +325,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
@@ -460,8 +461,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};

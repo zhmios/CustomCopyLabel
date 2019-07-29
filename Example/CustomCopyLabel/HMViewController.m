@@ -11,6 +11,9 @@
 
 @interface HMViewController ()
 
+@property (weak, nonatomic) IBOutlet CustomCopyLabel *testLabel;
+
+
 @end
 
 @implementation HMViewController
@@ -19,7 +22,7 @@
 {
     [super viewDidLoad];
     
-	// Do any additional setup after loading the view, typically from a nib.
+//    self.testLabel.canPaste = YES;
 }
 
 - (void)didReceiveMemoryWarning

@@ -26,6 +26,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="canPaste" value="NO"/>
+                                </userDefinedRuntimeAttributes>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -34,6 +37,9 @@
                             <constraint firstItem="LLE-U2-5n8" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="xIP-52-69q"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="testLabel" destination="LLE-U2-5n8" id="G0B-AD-s5N"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

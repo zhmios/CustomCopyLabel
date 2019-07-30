@@ -1,6 +1,6 @@
 {
   "name": "CustomCopyLabel",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "具有将内容粘贴到系统的剪切板功能的label",
   "description": "TODO: 继承于系统的label，添加将内容粘贴到系统的剪切板的功能",
   "homepage": "https://github.com/zhmios/CustomCopyLabel",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/zhmios/CustomCopyLabel.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"

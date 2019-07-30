@@ -12,4 +12,6 @@
 
 @property (nonatomic,assign) IBInspectable BOOL canPaste;
 
+@property (nonatomic,strong) IBInspectable NSString *showTitle;
+
 @end

@@ -7,107 +7,121 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0D7F8A3AC655BC12BE27BE90F3E99A8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		2DEA00D5D15BA0924E7AA9199F818EFB /* CustomCopyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD70D461E25142CB26998C62EDBF04F /* CustomCopyLabel.m */; };
-		36CDBB9507F2A33D8A79A88790B25EE2 /* CustomCopyLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E51F53AE93FA9DD00E9F1A251866C14 /* CustomCopyLabel-dummy.m */; };
-		5BF417FB0B7602A7AF7BC9FBFD1FE586 /* CustomCopyLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = AC1D103947662F479A5EAA68F359ADB4 /* CustomCopyLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5BFD8C811973F5799DCE45506BC3F622 /* Pods-CustomCopyLabel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FFBDEEB3AB00C51DFBF9CC7758A82E6E /* Pods-CustomCopyLabel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5DAE9CDD8A53B81F44F4D2E4AEC4DBFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		95D80CE4C33492212F044F731B78DC86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		A80B3B8496CB60B9088F2EC6F9C6FEC7 /* CustomCopyLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 670CB7721DF79513E445100DEFDF3DB5 /* CustomCopyLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B20A13F090A0E55270A621626244247D /* Pods-CustomCopyLabel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A195A2418D72C627E05D22DDCF2E5F2B /* Pods-CustomCopyLabel_Tests-dummy.m */; };
-		B7DDD4E3BF78AEEFDDF98280A6F6B498 /* Pods-CustomCopyLabel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D329F7EF7993CDA42107E8F1FAF75231 /* Pods-CustomCopyLabel_Example-dummy.m */; };
-		ECAECC97FD577EFBF67B1A159FAB8D93 /* Pods-CustomCopyLabel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6D503C5A8BEF2E53098E21E47A8DEEB /* Pods-CustomCopyLabel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0ECD8E02E53B39BF34AC7C96F905D7CB /* Pods-CustomCopyLabel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 510EE25121E9A2B5524173C2B744F35C /* Pods-CustomCopyLabel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		188EF0195FA4A561E759529296CE85D8 /* CustomCopyLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = AC1D103947662F479A5EAA68F359ADB4 /* CustomCopyLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E3E498343177E78C5C4B2E6A1B6EFD6 /* CustomCopyLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EB61E24E5B7C5871AF4043D7E823F7D /* CustomCopyLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36D87377996F56193C8558655D472F14 /* Pods-CustomCopyLabel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B953E583566899D9CC8B3F000222DDD /* Pods-CustomCopyLabel_Example-dummy.m */; };
+		934849C7F83D6E42A3D4B3C59C215127 /* CustomCopyLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C9EB61BBBA56166D5CC39242856483 /* CustomCopyLabel-dummy.m */; };
+		965BC76CBB451E398C01A8CD74B47C7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A413CF06D29F7B4C5C8676F0B7A145A4 /* CustomCopyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD70D461E25142CB26998C62EDBF04F /* CustomCopyLabel.m */; };
+		CEA9B6CDF5248CAF2685F0A6A0D8BB24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		DD2DE9ADB350D0F3CFAC30900C1A1F40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		DE36DE35CB81593C25DA14F193186CC1 /* Pods-CustomCopyLabel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE373CAC26AC5FF1BE1C4A57DC07992 /* Pods-CustomCopyLabel_Tests-dummy.m */; };
+		F5FE6D83C9DB56D0111352226BE8612E /* Pods-CustomCopyLabel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8817511403C19F7898DBA81C371CBE01 /* Pods-CustomCopyLabel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1DDC19484878CD14C55DE745DA110373 /* PBXContainerItemProxy */ = {
+		4CB793DB826C799B12DA2757139FF30F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DE9F4BBD8E244DD68B85631048E9CC74;
-			remoteInfo = "Pods-CustomCopyLabel_Example";
-		};
-		62F0E6DCE328E7CEE5CBEB8E39510FEC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C4BD8E1AE2777AB93E01728E16EA3AD2;
+			remoteGlobalIDString = A3F3C8FDCDA8993AC707B84111C9E4F8;
 			remoteInfo = CustomCopyLabel;
+		};
+		6708DAE65CA4A486F95DA476EDCFCD36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B958A6D42BEB7DCF46AC54B38BF7B74D;
+			remoteInfo = "Pods-CustomCopyLabel_Example";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0367F55167F3A4FF72800D0F2E70C9CF /* Pods-CustomCopyLabel_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CustomCopyLabel_Example-Info.plist"; sourceTree = "<group>"; };
-		0DF298BCEA8F32A0B4015771D6571153 /* Pods-CustomCopyLabel_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CustomCopyLabel_Example-frameworks.sh"; sourceTree = "<group>"; };
-		210650B2DC75FA9FB83C2675456D1043 /* CustomCopyLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CustomCopyLabel-prefix.pch"; sourceTree = "<group>"; };
-		36855A6B848E5A5437D0B7709256AB7C /* Pods-CustomCopyLabel_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CustomCopyLabel_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		04BF6672605B7F199FBEBD037CC21731 /* Pods-CustomCopyLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomCopyLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
+		04DE4BBA0B4B6A5ACC8263959DB13F07 /* Pods-CustomCopyLabel_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CustomCopyLabel_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		06753DD5731219E990C3BDD6CC8A405C /* Pods-CustomCopyLabel_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CustomCopyLabel_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		077C8527497B4984B3A2EECA12DC5BA2 /* Pods-CustomCopyLabel_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CustomCopyLabel_Example-frameworks.sh"; sourceTree = "<group>"; };
+		1F5DAF225206108F2530CEC6B86B3EA3 /* Pods-CustomCopyLabel_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CustomCopyLabel_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2163EB0DED6B577BBD66FF649A4F86CE /* Pods-CustomCopyLabel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CustomCopyLabel_Example.modulemap"; sourceTree = "<group>"; };
+		22C4EF62C6B158551BF2CB6FF678668B /* CustomCopyLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CustomCopyLabel.modulemap; sourceTree = "<group>"; };
+		231D929927C6ABEEA5D94CDA5409771C /* CustomCopyLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CustomCopyLabel.framework; path = CustomCopyLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		292E1DA3C4D068A18E2B002DE765E51F /* Pods-CustomCopyLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomCopyLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3FD70D461E25142CB26998C62EDBF04F /* CustomCopyLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CustomCopyLabel.m; path = CustomCopyLabel/Classes/CustomCopyLabel.m; sourceTree = "<group>"; };
-		527A157C639497D2E946759D2F099C29 /* CustomCopyLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CustomCopyLabel.xcconfig; sourceTree = "<group>"; };
-		5B23521534C9C57DCF4AFD1395688942 /* Pods_CustomCopyLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomCopyLabel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F247FAD7BECA55BC2A6A125C0C385B6 /* Pods-CustomCopyLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomCopyLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
-		670CB7721DF79513E445100DEFDF3DB5 /* CustomCopyLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CustomCopyLabel-umbrella.h"; sourceTree = "<group>"; };
-		71140CED717CBBFC07E599383C3B0236 /* Pods-CustomCopyLabel_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CustomCopyLabel_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		745A98067F00EFDB823603DC0A3BF0FF /* Pods-CustomCopyLabel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CustomCopyLabel_Example.modulemap"; sourceTree = "<group>"; };
-		7E3535A276AB4EC1398C3232E3030132 /* CustomCopyLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CustomCopyLabel.modulemap; sourceTree = "<group>"; };
-		8501FDB4D94FC6A7BE8995D3DA01066E /* Pods_CustomCopyLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomCopyLabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8BE5F28224A4FC9ECC4ED8D93432D59B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		8E51F53AE93FA9DD00E9F1A251866C14 /* CustomCopyLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CustomCopyLabel-dummy.m"; sourceTree = "<group>"; };
-		9D39758433113BFA1B108DD86C0A68B7 /* Pods-CustomCopyLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomCopyLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A195A2418D72C627E05D22DDCF2E5F2B /* Pods-CustomCopyLabel_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CustomCopyLabel_Tests-dummy.m"; sourceTree = "<group>"; };
-		A36D078DFE4B79D2A605041E0D237CEA /* Pods-CustomCopyLabel_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CustomCopyLabel_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A67B2BA3654FA9AB266D892F4506FA20 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4F94BC9E06DDD4EBD60E55FBDC12A98E /* Pods-CustomCopyLabel_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CustomCopyLabel_Example-Info.plist"; sourceTree = "<group>"; };
+		510EE25121E9A2B5524173C2B744F35C /* Pods-CustomCopyLabel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CustomCopyLabel_Tests-umbrella.h"; sourceTree = "<group>"; };
+		5277768F1CB14664464FAE6A2ADA81B0 /* Pods-CustomCopyLabel_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CustomCopyLabel_Tests-Info.plist"; sourceTree = "<group>"; };
+		736B6451CF81A354D44A733C514991D2 /* Pods-CustomCopyLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomCopyLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7B953E583566899D9CC8B3F000222DDD /* Pods-CustomCopyLabel_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CustomCopyLabel_Example-dummy.m"; sourceTree = "<group>"; };
+		7EB61E24E5B7C5871AF4043D7E823F7D /* CustomCopyLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CustomCopyLabel-umbrella.h"; sourceTree = "<group>"; };
+		8103BB9D295C49C648AC8B46F0B9D6FE /* Pods-CustomCopyLabel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CustomCopyLabel_Tests.modulemap"; sourceTree = "<group>"; };
+		84EAEF87234519DCA83B64835013E63F /* CustomCopyLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CustomCopyLabel-prefix.pch"; sourceTree = "<group>"; };
+		8817511403C19F7898DBA81C371CBE01 /* Pods-CustomCopyLabel_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CustomCopyLabel_Example-umbrella.h"; sourceTree = "<group>"; };
+		8BE5F28224A4FC9ECC4ED8D93432D59B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		955988854856B1DD2D1FE9CBAEE44AA2 /* Pods_CustomCopyLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CustomCopyLabel_Tests.framework; path = "Pods-CustomCopyLabel_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A67B2BA3654FA9AB266D892F4506FA20 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A79830478A09F6E525FAF540D6EB3DFD /* CustomCopyLabel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CustomCopyLabel-Info.plist"; sourceTree = "<group>"; };
+		A7FF8CD06D357BD2248FB9D1C94645E6 /* Pods_CustomCopyLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CustomCopyLabel_Example.framework; path = "Pods-CustomCopyLabel_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC1D103947662F479A5EAA68F359ADB4 /* CustomCopyLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CustomCopyLabel.h; path = CustomCopyLabel/Classes/CustomCopyLabel.h; sourceTree = "<group>"; };
-		B54B6B6FA88DE0E5378B11F412B2759A /* CustomCopyLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CustomCopyLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B6CB47AB568F441D02311D8F33DFA767 /* Pods-CustomCopyLabel_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CustomCopyLabel_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		B6D503C5A8BEF2E53098E21E47A8DEEB /* Pods-CustomCopyLabel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CustomCopyLabel_Tests-umbrella.h"; sourceTree = "<group>"; };
-		BC9168CAE81C97BA2D38B5B0897DC6B1 /* CustomCopyLabel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CustomCopyLabel.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D329F7EF7993CDA42107E8F1FAF75231 /* Pods-CustomCopyLabel_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CustomCopyLabel_Example-dummy.m"; sourceTree = "<group>"; };
-		E8CBD038B0BAE83AF019FE1B7B08B7CA /* Pods-CustomCopyLabel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CustomCopyLabel_Tests.modulemap"; sourceTree = "<group>"; };
-		ECDDEE3EEE9E4967C75182A2036E885B /* Pods-CustomCopyLabel_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CustomCopyLabel_Tests-Info.plist"; sourceTree = "<group>"; };
-		F7FDFE09C0F98650C586B5D8DBB3C75C /* Pods-CustomCopyLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomCopyLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F9C53174AF7207EDB06A9FB8CBDA9E9A /* Pods-CustomCopyLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomCopyLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		FAFAFBD381834A4E2B5DC0D4C3135E38 /* CustomCopyLabel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CustomCopyLabel-Info.plist"; sourceTree = "<group>"; };
-		FFBDEEB3AB00C51DFBF9CC7758A82E6E /* Pods-CustomCopyLabel_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CustomCopyLabel_Example-umbrella.h"; sourceTree = "<group>"; };
+		BAE373CAC26AC5FF1BE1C4A57DC07992 /* Pods-CustomCopyLabel_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CustomCopyLabel_Tests-dummy.m"; sourceTree = "<group>"; };
+		BC29B31C0AB6C58679098970A10D1200 /* CustomCopyLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CustomCopyLabel.xcconfig; sourceTree = "<group>"; };
+		BC9168CAE81C97BA2D38B5B0897DC6B1 /* CustomCopyLabel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CustomCopyLabel.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C0C9EB61BBBA56166D5CC39242856483 /* CustomCopyLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CustomCopyLabel-dummy.m"; sourceTree = "<group>"; };
+		CBADAC7A172681B4BBC02C5AE746C363 /* Pods-CustomCopyLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomCopyLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E296DB60780E76758D4501ADB0A67987 /* Pods-CustomCopyLabel_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CustomCopyLabel_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5B94BE586DFD219E22B5C38ACFCB3BFB /* Frameworks */ = {
+		221A5F04CD93EF9D65CDC12C947B9FF5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DAE9CDD8A53B81F44F4D2E4AEC4DBFD /* Foundation.framework in Frameworks */,
+				DD2DE9ADB350D0F3CFAC30900C1A1F40 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7EC330AA18D0CF72369DB3936769A8FC /* Frameworks */ = {
+		31C121C049F27A4079C7112536CAEB83 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D7F8A3AC655BC12BE27BE90F3E99A8D /* Foundation.framework in Frameworks */,
+				965BC76CBB451E398C01A8CD74B47C7F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		96194E13A670CFC27699B726846B272E /* Frameworks */ = {
+		43934ECFFDF403D4E42D0F1415D949BD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95D80CE4C33492212F044F731B78DC86 /* Foundation.framework in Frameworks */,
+				CEA9B6CDF5248CAF2685F0A6A0D8BB24 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		099609D9269AAC52F4950D5C14E05243 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				22C4EF62C6B158551BF2CB6FF678668B /* CustomCopyLabel.modulemap */,
+				BC29B31C0AB6C58679098970A10D1200 /* CustomCopyLabel.xcconfig */,
+				C0C9EB61BBBA56166D5CC39242856483 /* CustomCopyLabel-dummy.m */,
+				A79830478A09F6E525FAF540D6EB3DFD /* CustomCopyLabel-Info.plist */,
+				84EAEF87234519DCA83B64835013E63F /* CustomCopyLabel-prefix.pch */,
+				7EB61E24E5B7C5871AF4043D7E823F7D /* CustomCopyLabel-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CustomCopyLabel";
+			sourceTree = "<group>";
+		};
 		3291B9332D458EEBDB66746908BFD846 /* CustomCopyLabel */ = {
 			isa = PBXGroup;
 			children = (
 				AC1D103947662F479A5EAA68F359ADB4 /* CustomCopyLabel.h */,
 				3FD70D461E25142CB26998C62EDBF04F /* CustomCopyLabel.m */,
 				341513849E9E3B4D9B6EBE46E51BCE6A /* Pod */,
-				D310A72FEC2DD2C82FDD916AC1958F18 /* Support Files */,
+				099609D9269AAC52F4950D5C14E05243 /* Support Files */,
 			);
 			name = CustomCopyLabel;
 			path = ../..;
@@ -123,39 +137,6 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		5D934252AC49FE1A2ADCBDE777575397 /* Pods-CustomCopyLabel_Example */ = {
-			isa = PBXGroup;
-			children = (
-				745A98067F00EFDB823603DC0A3BF0FF /* Pods-CustomCopyLabel_Example.modulemap */,
-				A36D078DFE4B79D2A605041E0D237CEA /* Pods-CustomCopyLabel_Example-acknowledgements.markdown */,
-				B6CB47AB568F441D02311D8F33DFA767 /* Pods-CustomCopyLabel_Example-acknowledgements.plist */,
-				D329F7EF7993CDA42107E8F1FAF75231 /* Pods-CustomCopyLabel_Example-dummy.m */,
-				0DF298BCEA8F32A0B4015771D6571153 /* Pods-CustomCopyLabel_Example-frameworks.sh */,
-				0367F55167F3A4FF72800D0F2E70C9CF /* Pods-CustomCopyLabel_Example-Info.plist */,
-				FFBDEEB3AB00C51DFBF9CC7758A82E6E /* Pods-CustomCopyLabel_Example-umbrella.h */,
-				F7FDFE09C0F98650C586B5D8DBB3C75C /* Pods-CustomCopyLabel_Example.debug.xcconfig */,
-				5F247FAD7BECA55BC2A6A125C0C385B6 /* Pods-CustomCopyLabel_Example.release.xcconfig */,
-			);
-			name = "Pods-CustomCopyLabel_Example";
-			path = "Target Support Files/Pods-CustomCopyLabel_Example";
-			sourceTree = "<group>";
-		};
-		7FF7C018C2D9B3A8CA54CEB689C094C9 /* Pods-CustomCopyLabel_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				E8CBD038B0BAE83AF019FE1B7B08B7CA /* Pods-CustomCopyLabel_Tests.modulemap */,
-				36855A6B848E5A5437D0B7709256AB7C /* Pods-CustomCopyLabel_Tests-acknowledgements.markdown */,
-				71140CED717CBBFC07E599383C3B0236 /* Pods-CustomCopyLabel_Tests-acknowledgements.plist */,
-				A195A2418D72C627E05D22DDCF2E5F2B /* Pods-CustomCopyLabel_Tests-dummy.m */,
-				ECDDEE3EEE9E4967C75182A2036E885B /* Pods-CustomCopyLabel_Tests-Info.plist */,
-				B6D503C5A8BEF2E53098E21E47A8DEEB /* Pods-CustomCopyLabel_Tests-umbrella.h */,
-				F9C53174AF7207EDB06A9FB8CBDA9E9A /* Pods-CustomCopyLabel_Tests.debug.xcconfig */,
-				9D39758433113BFA1B108DD86C0A68B7 /* Pods-CustomCopyLabel_Tests.release.xcconfig */,
-			);
-			name = "Pods-CustomCopyLabel_Tests";
-			path = "Target Support Files/Pods-CustomCopyLabel_Tests";
-			sourceTree = "<group>";
-		};
 		87F7F3B70A864A209E83D884E174AE37 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -164,21 +145,38 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+		9BC5D151DBBAAB393018C8E86AA9DA23 /* Pods-CustomCopyLabel_Example */ = {
 			isa = PBXGroup;
 			children = (
-				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+				2163EB0DED6B577BBD66FF649A4F86CE /* Pods-CustomCopyLabel_Example.modulemap */,
+				1F5DAF225206108F2530CEC6B86B3EA3 /* Pods-CustomCopyLabel_Example-acknowledgements.markdown */,
+				E296DB60780E76758D4501ADB0A67987 /* Pods-CustomCopyLabel_Example-acknowledgements.plist */,
+				7B953E583566899D9CC8B3F000222DDD /* Pods-CustomCopyLabel_Example-dummy.m */,
+				077C8527497B4984B3A2EECA12DC5BA2 /* Pods-CustomCopyLabel_Example-frameworks.sh */,
+				4F94BC9E06DDD4EBD60E55FBDC12A98E /* Pods-CustomCopyLabel_Example-Info.plist */,
+				8817511403C19F7898DBA81C371CBE01 /* Pods-CustomCopyLabel_Example-umbrella.h */,
+				736B6451CF81A354D44A733C514991D2 /* Pods-CustomCopyLabel_Example.debug.xcconfig */,
+				04BF6672605B7F199FBEBD037CC21731 /* Pods-CustomCopyLabel_Example.release.xcconfig */,
 			);
-			name = iOS;
+			name = "Pods-CustomCopyLabel_Example";
+			path = "Target Support Files/Pods-CustomCopyLabel_Example";
 			sourceTree = "<group>";
 		};
 		C0657E9B29D9804F34C290682E6EB442 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5D934252AC49FE1A2ADCBDE777575397 /* Pods-CustomCopyLabel_Example */,
-				7FF7C018C2D9B3A8CA54CEB689C094C9 /* Pods-CustomCopyLabel_Tests */,
+				9BC5D151DBBAAB393018C8E86AA9DA23 /* Pods-CustomCopyLabel_Example */,
+				F20C7983D9AE2D6465127FB122F1EDBC /* Pods-CustomCopyLabel_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -195,93 +193,95 @@
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D310A72FEC2DD2C82FDD916AC1958F18 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7E3535A276AB4EC1398C3232E3030132 /* CustomCopyLabel.modulemap */,
-				527A157C639497D2E946759D2F099C29 /* CustomCopyLabel.xcconfig */,
-				8E51F53AE93FA9DD00E9F1A251866C14 /* CustomCopyLabel-dummy.m */,
-				FAFAFBD381834A4E2B5DC0D4C3135E38 /* CustomCopyLabel-Info.plist */,
-				210650B2DC75FA9FB83C2675456D1043 /* CustomCopyLabel-prefix.pch */,
-				670CB7721DF79513E445100DEFDF3DB5 /* CustomCopyLabel-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CustomCopyLabel";
 			sourceTree = "<group>";
 		};
 		EB11B0C2AC05EF5EA65E3C7145995B89 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B54B6B6FA88DE0E5378B11F412B2759A /* CustomCopyLabel.framework */,
-				8501FDB4D94FC6A7BE8995D3DA01066E /* Pods_CustomCopyLabel_Example.framework */,
-				5B23521534C9C57DCF4AFD1395688942 /* Pods_CustomCopyLabel_Tests.framework */,
+				231D929927C6ABEEA5D94CDA5409771C /* CustomCopyLabel.framework */,
+				A7FF8CD06D357BD2248FB9D1C94645E6 /* Pods_CustomCopyLabel_Example.framework */,
+				955988854856B1DD2D1FE9CBAEE44AA2 /* Pods_CustomCopyLabel_Tests.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		F20C7983D9AE2D6465127FB122F1EDBC /* Pods-CustomCopyLabel_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8103BB9D295C49C648AC8B46F0B9D6FE /* Pods-CustomCopyLabel_Tests.modulemap */,
+				04DE4BBA0B4B6A5ACC8263959DB13F07 /* Pods-CustomCopyLabel_Tests-acknowledgements.markdown */,
+				06753DD5731219E990C3BDD6CC8A405C /* Pods-CustomCopyLabel_Tests-acknowledgements.plist */,
+				BAE373CAC26AC5FF1BE1C4A57DC07992 /* Pods-CustomCopyLabel_Tests-dummy.m */,
+				5277768F1CB14664464FAE6A2ADA81B0 /* Pods-CustomCopyLabel_Tests-Info.plist */,
+				510EE25121E9A2B5524173C2B744F35C /* Pods-CustomCopyLabel_Tests-umbrella.h */,
+				CBADAC7A172681B4BBC02C5AE746C363 /* Pods-CustomCopyLabel_Tests.debug.xcconfig */,
+				292E1DA3C4D068A18E2B002DE765E51F /* Pods-CustomCopyLabel_Tests.release.xcconfig */,
+			);
+			name = "Pods-CustomCopyLabel_Tests";
+			path = "Target Support Files/Pods-CustomCopyLabel_Tests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3BB62C83F2E96F7250C2772CA1946A30 /* Headers */ = {
+		1FABB9E07B3E39BD24DCF58C8E93B1F7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECAECC97FD577EFBF67B1A159FAB8D93 /* Pods-CustomCopyLabel_Tests-umbrella.h in Headers */,
+				0ECD8E02E53B39BF34AC7C96F905D7CB /* Pods-CustomCopyLabel_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C469D0B48F09EB89E25A4A89CE7F41C0 /* Headers */ = {
+		757703C97B7FE18FBEFC0D6E97379E7E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A80B3B8496CB60B9088F2EC6F9C6FEC7 /* CustomCopyLabel-umbrella.h in Headers */,
-				5BF417FB0B7602A7AF7BC9FBFD1FE586 /* CustomCopyLabel.h in Headers */,
+				F5FE6D83C9DB56D0111352226BE8612E /* Pods-CustomCopyLabel_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DB4AB09FFCA30E6F83A9FE0B10B935BD /* Headers */ = {
+		F882F91491BE07B6D68DF0659F3B80B3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BFD8C811973F5799DCE45506BC3F622 /* Pods-CustomCopyLabel_Example-umbrella.h in Headers */,
+				1E3E498343177E78C5C4B2E6A1B6EFD6 /* CustomCopyLabel-umbrella.h in Headers */,
+				188EF0195FA4A561E759529296CE85D8 /* CustomCopyLabel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		45D471AECFA4EDA9C5A12DDBA6C84DBC /* Pods-CustomCopyLabel_Tests */ = {
+		16FADB3BB1C19F0A47AF1EBE64BD89ED /* Pods-CustomCopyLabel_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FD9A9A82DCF2DBF57D1E12BC4B8E17AC /* Build configuration list for PBXNativeTarget "Pods-CustomCopyLabel_Tests" */;
+			buildConfigurationList = 15AF1D73480C9C7810B5DD8540E1CFB6 /* Build configuration list for PBXNativeTarget "Pods-CustomCopyLabel_Tests" */;
 			buildPhases = (
-				3BB62C83F2E96F7250C2772CA1946A30 /* Headers */,
-				41A06F0A446A1EDADA8C86E30C6A2140 /* Sources */,
-				5B94BE586DFD219E22B5C38ACFCB3BFB /* Frameworks */,
-				16454A2554C051D613668264F9CD9281 /* Resources */,
+				1FABB9E07B3E39BD24DCF58C8E93B1F7 /* Headers */,
+				B2CDD88E0CDFD870117F937A81B11E79 /* Sources */,
+				43934ECFFDF403D4E42D0F1415D949BD /* Frameworks */,
+				08C7B2E205FCAA31C10F45356283BA19 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C2D346F5BE0E1B544F3A67952431D3E4 /* PBXTargetDependency */,
+				1E94F77D5F37F43933183052017FA007 /* PBXTargetDependency */,
 			);
 			name = "Pods-CustomCopyLabel_Tests";
 			productName = "Pods-CustomCopyLabel_Tests";
-			productReference = 5B23521534C9C57DCF4AFD1395688942 /* Pods_CustomCopyLabel_Tests.framework */;
+			productReference = 955988854856B1DD2D1FE9CBAEE44AA2 /* Pods_CustomCopyLabel_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C4BD8E1AE2777AB93E01728E16EA3AD2 /* CustomCopyLabel */ = {
+		A3F3C8FDCDA8993AC707B84111C9E4F8 /* CustomCopyLabel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0709A2AC3AFD63834789BFFC68B48F4B /* Build configuration list for PBXNativeTarget "CustomCopyLabel" */;
+			buildConfigurationList = 98DD7DE043134FFCC77E527FB37473D0 /* Build configuration list for PBXNativeTarget "CustomCopyLabel" */;
 			buildPhases = (
-				C469D0B48F09EB89E25A4A89CE7F41C0 /* Headers */,
-				C3344F729BFB97CD6D16AC73017E7FA1 /* Sources */,
-				96194E13A670CFC27699B726846B272E /* Frameworks */,
-				5897C90A21EB6A63D64B813F2514C787 /* Resources */,
+				F882F91491BE07B6D68DF0659F3B80B3 /* Headers */,
+				3C38E0832AE1F4B067E540C4B6717BD5 /* Sources */,
+				221A5F04CD93EF9D65CDC12C947B9FF5 /* Frameworks */,
+				0EA80BB63D2B0EF75FC54DB511815CAB /* Resources */,
 			);
 			buildRules = (
 			);
@@ -289,26 +289,26 @@
 			);
 			name = CustomCopyLabel;
 			productName = CustomCopyLabel;
-			productReference = B54B6B6FA88DE0E5378B11F412B2759A /* CustomCopyLabel.framework */;
+			productReference = 231D929927C6ABEEA5D94CDA5409771C /* CustomCopyLabel.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		DE9F4BBD8E244DD68B85631048E9CC74 /* Pods-CustomCopyLabel_Example */ = {
+		B958A6D42BEB7DCF46AC54B38BF7B74D /* Pods-CustomCopyLabel_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4E1978851F0D8539C56E7361D578C81B /* Build configuration list for PBXNativeTarget "Pods-CustomCopyLabel_Example" */;
+			buildConfigurationList = 8291A0079183ADC57F3D54349FD93B5A /* Build configuration list for PBXNativeTarget "Pods-CustomCopyLabel_Example" */;
 			buildPhases = (
-				DB4AB09FFCA30E6F83A9FE0B10B935BD /* Headers */,
-				661D35CC650030276281FB50A2DA1ABE /* Sources */,
-				7EC330AA18D0CF72369DB3936769A8FC /* Frameworks */,
-				50D3616259738E0EA780A202A9E026A3 /* Resources */,
+				757703C97B7FE18FBEFC0D6E97379E7E /* Headers */,
+				511559FF7471524BC36367818351B52A /* Sources */,
+				31C121C049F27A4079C7112536CAEB83 /* Frameworks */,
+				BF715FA76FADE84B8D053155A67AE9A0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D67AB8B79701E61519A98C0914AC6182 /* PBXTargetDependency */,
+				507C7C4B7FABD9895F83B14784D0D5D7 /* PBXTargetDependency */,
 			);
 			name = "Pods-CustomCopyLabel_Example";
 			productName = "Pods-CustomCopyLabel_Example";
-			productReference = 8501FDB4D94FC6A7BE8995D3DA01066E /* Pods_CustomCopyLabel_Example.framework */;
+			productReference = A7FF8CD06D357BD2248FB9D1C94645E6 /* Pods_CustomCopyLabel_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -317,15 +317,14 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
@@ -333,29 +332,29 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C4BD8E1AE2777AB93E01728E16EA3AD2 /* CustomCopyLabel */,
-				DE9F4BBD8E244DD68B85631048E9CC74 /* Pods-CustomCopyLabel_Example */,
-				45D471AECFA4EDA9C5A12DDBA6C84DBC /* Pods-CustomCopyLabel_Tests */,
+				A3F3C8FDCDA8993AC707B84111C9E4F8 /* CustomCopyLabel */,
+				B958A6D42BEB7DCF46AC54B38BF7B74D /* Pods-CustomCopyLabel_Example */,
+				16FADB3BB1C19F0A47AF1EBE64BD89ED /* Pods-CustomCopyLabel_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		16454A2554C051D613668264F9CD9281 /* Resources */ = {
+		08C7B2E205FCAA31C10F45356283BA19 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		50D3616259738E0EA780A202A9E026A3 /* Resources */ = {
+		0EA80BB63D2B0EF75FC54DB511815CAB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5897C90A21EB6A63D64B813F2514C787 /* Resources */ = {
+		BF715FA76FADE84B8D053155A67AE9A0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -365,50 +364,149 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		41A06F0A446A1EDADA8C86E30C6A2140 /* Sources */ = {
+		3C38E0832AE1F4B067E540C4B6717BD5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B20A13F090A0E55270A621626244247D /* Pods-CustomCopyLabel_Tests-dummy.m in Sources */,
+				934849C7F83D6E42A3D4B3C59C215127 /* CustomCopyLabel-dummy.m in Sources */,
+				A413CF06D29F7B4C5C8676F0B7A145A4 /* CustomCopyLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		661D35CC650030276281FB50A2DA1ABE /* Sources */ = {
+		511559FF7471524BC36367818351B52A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7DDD4E3BF78AEEFDDF98280A6F6B498 /* Pods-CustomCopyLabel_Example-dummy.m in Sources */,
+				36D87377996F56193C8558655D472F14 /* Pods-CustomCopyLabel_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C3344F729BFB97CD6D16AC73017E7FA1 /* Sources */ = {
+		B2CDD88E0CDFD870117F937A81B11E79 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36CDBB9507F2A33D8A79A88790B25EE2 /* CustomCopyLabel-dummy.m in Sources */,
-				2DEA00D5D15BA0924E7AA9199F818EFB /* CustomCopyLabel.m in Sources */,
+				DE36DE35CB81593C25DA14F193186CC1 /* Pods-CustomCopyLabel_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C2D346F5BE0E1B544F3A67952431D3E4 /* PBXTargetDependency */ = {
+		1E94F77D5F37F43933183052017FA007 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-CustomCopyLabel_Example";
-			target = DE9F4BBD8E244DD68B85631048E9CC74 /* Pods-CustomCopyLabel_Example */;
-			targetProxy = 1DDC19484878CD14C55DE745DA110373 /* PBXContainerItemProxy */;
+			target = B958A6D42BEB7DCF46AC54B38BF7B74D /* Pods-CustomCopyLabel_Example */;
+			targetProxy = 6708DAE65CA4A486F95DA476EDCFCD36 /* PBXContainerItemProxy */;
 		};
-		D67AB8B79701E61519A98C0914AC6182 /* PBXTargetDependency */ = {
+		507C7C4B7FABD9895F83B14784D0D5D7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CustomCopyLabel;
-			target = C4BD8E1AE2777AB93E01728E16EA3AD2 /* CustomCopyLabel */;
-			targetProxy = 62F0E6DCE328E7CEE5CBEB8E39510FEC /* PBXContainerItemProxy */;
+			target = A3F3C8FDCDA8993AC707B84111C9E4F8 /* CustomCopyLabel */;
+			targetProxy = 4CB793DB826C799B12DA2757139FF30F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		05DF210AC65EBB0E593AAF976B2C2177 /* Release */ = {
+		015650A7184F1C4BA1DA1EA50CC8282B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04BF6672605B7F199FBEBD037CC21731 /* Pods-CustomCopyLabel_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CustomCopyLabel_Example/Pods-CustomCopyLabel_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CustomCopyLabel_Example/Pods-CustomCopyLabel_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1B629A6F5E858EAB75CB03D950E70631 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBADAC7A172681B4BBC02C5AE746C363 /* Pods-CustomCopyLabel_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CustomCopyLabel_Tests/Pods-CustomCopyLabel_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CustomCopyLabel_Tests/Pods-CustomCopyLabel_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		313F0010D599505CC6C66C09D0CEF296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC29B31C0AB6C58679098970A10D1200 /* CustomCopyLabel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CustomCopyLabel/CustomCopyLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CustomCopyLabel/CustomCopyLabel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CustomCopyLabel/CustomCopyLabel.modulemap";
+				PRODUCT_MODULE_NAME = CustomCopyLabel;
+				PRODUCT_NAME = CustomCopyLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -461,77 +559,14 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		173A342340ACAB951728FC746E4F67CA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F9C53174AF7207EDB06A9FB8CBDA9E9A /* Pods-CustomCopyLabel_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CustomCopyLabel_Tests/Pods-CustomCopyLabel_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CustomCopyLabel_Tests/Pods-CustomCopyLabel_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		277812D7FFDB39F3B761B957E84B7B5C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 527A157C639497D2E946759D2F099C29 /* CustomCopyLabel.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CustomCopyLabel/CustomCopyLabel-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CustomCopyLabel/CustomCopyLabel-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CustomCopyLabel/CustomCopyLabel.modulemap";
-				PRODUCT_MODULE_NAME = CustomCopyLabel;
-				PRODUCT_NAME = CustomCopyLabel;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		421ECB1396280A8D83853C3DDBED1700 /* Debug */ = {
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -590,14 +625,78 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		79647313260CD1410E6A362DC770F1EF /* Release */ = {
+		BD3D299B1FF5B6A30AEE9070720E7D01 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D39758433113BFA1B108DD86C0A68B7 /* Pods-CustomCopyLabel_Tests.release.xcconfig */;
+			baseConfigurationReference = 736B6451CF81A354D44A733C514991D2 /* Pods-CustomCopyLabel_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CustomCopyLabel_Example/Pods-CustomCopyLabel_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CustomCopyLabel_Example/Pods-CustomCopyLabel_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BE821E724123DB6838D64EF6286D20BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC29B31C0AB6C58679098970A10D1200 /* CustomCopyLabel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CustomCopyLabel/CustomCopyLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CustomCopyLabel/CustomCopyLabel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CustomCopyLabel/CustomCopyLabel.modulemap";
+				PRODUCT_MODULE_NAME = CustomCopyLabel;
+				PRODUCT_NAME = CustomCopyLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E5788B988B119922C9EE09C0545E3529 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 292E1DA3C4D068A18E2B002DE765E51F /* Pods-CustomCopyLabel_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -629,113 +728,14 @@
 			};
 			name = Release;
 		};
-		B77320701D693F7675B50E279F4E5E8D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 527A157C639497D2E946759D2F099C29 /* CustomCopyLabel.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CustomCopyLabel/CustomCopyLabel-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CustomCopyLabel/CustomCopyLabel-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CustomCopyLabel/CustomCopyLabel.modulemap";
-				PRODUCT_MODULE_NAME = CustomCopyLabel;
-				PRODUCT_NAME = CustomCopyLabel;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		DFCDBDD3297F87C348594C6BBE0291A7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F247FAD7BECA55BC2A6A125C0C385B6 /* Pods-CustomCopyLabel_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CustomCopyLabel_Example/Pods-CustomCopyLabel_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CustomCopyLabel_Example/Pods-CustomCopyLabel_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E33BAEF773D34D72A9EF7581E03E271A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7FDFE09C0F98650C586B5D8DBB3C75C /* Pods-CustomCopyLabel_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CustomCopyLabel_Example/Pods-CustomCopyLabel_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CustomCopyLabel_Example/Pods-CustomCopyLabel_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0709A2AC3AFD63834789BFFC68B48F4B /* Build configuration list for PBXNativeTarget "CustomCopyLabel" */ = {
+		15AF1D73480C9C7810B5DD8540E1CFB6 /* Build configuration list for PBXNativeTarget "Pods-CustomCopyLabel_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				277812D7FFDB39F3B761B957E84B7B5C /* Debug */,
-				B77320701D693F7675B50E279F4E5E8D /* Release */,
+				1B629A6F5E858EAB75CB03D950E70631 /* Debug */,
+				E5788B988B119922C9EE09C0545E3529 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -743,26 +743,26 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				421ECB1396280A8D83853C3DDBED1700 /* Debug */,
-				05DF210AC65EBB0E593AAF976B2C2177 /* Release */,
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4E1978851F0D8539C56E7361D578C81B /* Build configuration list for PBXNativeTarget "Pods-CustomCopyLabel_Example" */ = {
+		8291A0079183ADC57F3D54349FD93B5A /* Build configuration list for PBXNativeTarget "Pods-CustomCopyLabel_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E33BAEF773D34D72A9EF7581E03E271A /* Debug */,
-				DFCDBDD3297F87C348594C6BBE0291A7 /* Release */,
+				BD3D299B1FF5B6A30AEE9070720E7D01 /* Debug */,
+				015650A7184F1C4BA1DA1EA50CC8282B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FD9A9A82DCF2DBF57D1E12BC4B8E17AC /* Build configuration list for PBXNativeTarget "Pods-CustomCopyLabel_Tests" */ = {
+		98DD7DE043134FFCC77E527FB37473D0 /* Build configuration list for PBXNativeTarget "CustomCopyLabel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				173A342340ACAB951728FC746E4F67CA /* Debug */,
-				79647313260CD1410E6A362DC770F1EF /* Release */,
+				BE821E724123DB6838D64EF6286D20BE /* Debug */,
+				313F0010D599505CC6C66C09D0CEF296 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

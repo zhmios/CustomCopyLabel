@@ -27,7 +27,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="canPaste" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="canPaste" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="showTitle" value="复制"/>
                                 </userDefinedRuntimeAttributes>
                             </label>
                         </subviews>

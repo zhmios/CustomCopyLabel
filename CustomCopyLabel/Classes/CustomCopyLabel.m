@@ -46,6 +46,12 @@
     
 }
 
+- (void)setShowTitle:(NSString *)showTitle{
+    
+    _showTitle = showTitle;
+    
+}
+
 //使label能够成为响应事件
 - (BOOL)canBecomeFirstResponder{
     
@@ -72,7 +78,8 @@
     
     if (recognier.state == UIGestureRecognizerStateBegan) {
         [self becomeFirstResponder];
-        UIMenuItem *copyItem = [[UIMenuItem alloc] initWithTitle:@"拷贝" action:@selector(customCopy:)];
+        NSString *titleName = self.showTitle?: @"拷贝";
+        UIMenuItem *copyItem = [[UIMenuItem alloc] initWithTitle:titleName action:@selector(customCopy:)];
         UIMenuController *menuController = [UIMenuController sharedMenuController];
         menuController.menuItems = @[copyItem];
         [menuController setTargetRect:self.frame inView:self.superview];

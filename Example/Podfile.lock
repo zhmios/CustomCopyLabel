@@ -1,5 +1,5 @@
 PODS:
-  - CustomCopyLabel (0.1.0)
+  - CustomCopyLabel (0.1.1)
 
 DEPENDENCIES:
   - CustomCopyLabel (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CustomCopyLabel: 06adbef3309ed1c90a07bb1c8ccefb2fd102b533
+  CustomCopyLabel: 6b4dcd54282c08b69bca13d401f6cfd2963f607d
 
 PODFILE CHECKSUM: 8de6471f58e9e14cf55481cc60fcafacf0c61cbd
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.7.5

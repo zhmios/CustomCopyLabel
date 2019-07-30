@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CustomCopyLabel'
-  s.version          = '0.1.2'
+  s.version          = '0.1.6'
   s.summary          = '具有将内容粘贴到系统的剪切板功能的label'
 
 # This description is used to generate tags and improve search results.

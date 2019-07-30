@@ -78,7 +78,7 @@
     
     if (recognier.state == UIGestureRecognizerStateBegan) {
         [self becomeFirstResponder];
-        NSString *titleName = self.showTitle?: @"拷贝";
+        NSString *titleName = self.showTitle?: @"复制";
         UIMenuItem *copyItem = [[UIMenuItem alloc] initWithTitle:titleName action:@selector(customCopy:)];
         UIMenuController *menuController = [UIMenuController sharedMenuController];
         menuController.menuItems = @[copyItem];

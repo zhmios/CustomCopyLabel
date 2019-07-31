@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="whP-gf-Uak">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -18,24 +18,26 @@
                         <viewControllerLayoutGuide type="bottom" id="Mvr-aV-6Um"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="哈哈复制的内容" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LLE-U2-5n8" customClass="CustomCopyLabel">
-                                <rect key="frame" x="127" y="323" width="121.5" height="21"/>
+                                <rect key="frame" x="16" y="396" width="343" height="20.333333333333314"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="canPaste" value="YES"/>
                                     <userDefinedRuntimeAttribute type="string" keyPath="showTitle" value="复制"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="calculateText" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="LLE-U2-5n8" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leading" constant="16" id="8yJ-QQ-PPd"/>
                             <constraint firstItem="LLE-U2-5n8" firstAttribute="centerY" secondItem="TpU-gO-2f1" secondAttribute="centerY" id="ATT-1Z-rNk"/>
-                            <constraint firstItem="LLE-U2-5n8" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="xIP-52-69q"/>
+                            <constraint firstAttribute="trailing" secondItem="LLE-U2-5n8" secondAttribute="trailing" constant="16" id="kpd-fK-5TF"/>
                         </constraints>
                     </view>
                     <connections>

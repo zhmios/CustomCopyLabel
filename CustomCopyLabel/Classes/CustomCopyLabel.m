@@ -82,10 +82,33 @@
         UIMenuItem *copyItem = [[UIMenuItem alloc] initWithTitle:titleName action:@selector(customCopy:)];
         UIMenuController *menuController = [UIMenuController sharedMenuController];
         menuController.menuItems = @[copyItem];
-        [menuController setTargetRect:self.frame inView:self.superview];
+        CGRect targetFrame = self.frame;
+        if (self.calculateText) {
+            NSInteger textWidth = [self fetchLabelTextWidth];
+            targetFrame = CGRectMake(self.frame.origin.x, self.frame.origin.y, textWidth, self.frame.size.height);
+            
+        }
+        [menuController setTargetRect:targetFrame inView:self.superview];
         [menuController setMenuVisible:YES animated:YES];
     }
     
+}
+
+- (NSInteger)fetchLabelTextWidth{
+    
+    NSString *text = @"";
+    if (self.text.length > 0) {
+        text = self.text;
+    }
+    CGRect textRect = [text boundingRectWithSize:CGSizeMake(CGFLOAT_MAX, self.frame.size.height) options:NSStringDrawingUsesLineFragmentOrigin | NSStringDrawingUsesFontLeading attributes:@{NSFontAttributeName:self.font} context:nil];
+     NSInteger width = ceil(textRect.size.width);
+    if (self.frame.size.width > 0) {
+        if (width > self.frame.size.width) {
+            width = self.frame.size.width;
+        }
+    }
+
+    return width;
 }
 
 

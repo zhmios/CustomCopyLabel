@@ -13,5 +13,9 @@
 @property (nonatomic,assign) IBInspectable BOOL canPaste;
 
 @property (nonatomic,strong) IBInspectable NSString *showTitle;
+/**
+ 是否根据文本进行计算，计算的宽度最大值为label的宽
+ */
+@property (nonatomic,assign) IBInspectable BOOL calculateText;
 
 @end
